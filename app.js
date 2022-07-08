@@ -13,6 +13,16 @@ var app = express();
 //-------------------------------------------------------
 //WS
 var condiadatEmployee=require('./services/CondidatEmpolyee');
+var condidat=require('./services/CondidatServices');
+var conge=require('./services/CongeServices');
+var InterviewDate=require('./services/InterviewDateServices');
+var Interview=require('./services/InterviewServices');
+var JobOffers=require('./services/JobOffers');
+var Test=require('./services/TestServices');
+var QuestionsServices=require('./services/QuestionsServices');
+var Users=require('./services/UserServices');
+var Category=require('./services/CategoryServices');
+var Support=require('./services/SupportServices');
 
 
 
@@ -22,10 +32,12 @@ var condiadatEmployee=require('./services/CondidatEmpolyee');
 // // view engine setup
 // app.set('views', path.join(__dirname, 'views'));
 // app.set('view engine', 'pug');
+const oneDay = 1000 * 60 * 60 * 24;
 app.use(session({
-	secret: 'secret',
-	resave: true,
-	saveUninitialized: true
+	secret: "kalitobeyondtoinifnityNotStoop##§",
+	saveUninitialized: true,
+	cookie: { maxAge: oneDay },
+	resave: false ,
 }));
  app.use(logger('dev'));
 app.use(express.json());
@@ -39,6 +51,17 @@ app.use(express.json());
 app.use('/', indexRouter);
 
 app.use('/condidatEmployee', condiadatEmployee);
+app.use('/condidat', condidat);
+app.use('/conge', conge);
+app.use('/InterviewDate', InterviewDate);
+app.use('/Interview', Interview);
+app.use('/JobOffers', JobOffers);
+app.use('/Test', Test);
+app.use('/Users', Users);
+app.use('/QuestionsServices', QuestionsServices);
+app.use('/Support', Support);
+app.use('/Category', Category);
+
 
 
 
