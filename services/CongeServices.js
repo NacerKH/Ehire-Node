@@ -27,7 +27,7 @@ router.get("/showAll", (req, res) => {
  //Create conge
  router.post("/add", (req, res) => {
          console.log(req.query.offer_id);
-     pool.query("INSERT INTO `condidat`(`Type`,`StartDate`, `EndDate`,`Description`,`Status`,`createdAt`,`updateAt`) VALUES (?,?,?,?,?,?,?)", [
+     pool.query("INSERT INTO `conge`(`Type`,`StartDate`, `EndDate`,`Description`,`Status`,`createdAt`,`updateAt`) VALUES (?,?,?,?,?,?,?)", [
          
          req.query.Type,
          req.query.StartDate,
