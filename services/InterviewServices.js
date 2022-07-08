@@ -25,7 +25,7 @@ router.get("/showAll", (req, res) => {
  //POST
  //Create intereview
  router.post("/add", (req, res) => {
-         console.log(req.query.offer_id);
+ 
      pool.query("INSERT INTO `interview`(`id_interview`,`date_interview`,`update_interview`,`type_interview`,`statut`) VALUES (?,?,?,?,?)", [
          
          req.query.id_interview,

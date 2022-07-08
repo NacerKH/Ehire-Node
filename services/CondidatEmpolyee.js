@@ -27,7 +27,7 @@ router.get("/showOne", (req, res) => {
 //POST
 //Create condidatEmployees
 router.post("/add", (req, res) => {
-        console.log(req.query.offer_id);
+   
     pool.query("INSERT INTO `condidatEmployees`(`offer_id`,`user_id`, `cv_url`,`status`,`CreatedDate`,`UpdatedDate`) VALUES (?,?,?,?,?,?)", [
         
         req.query.offer_id,

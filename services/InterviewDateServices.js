@@ -26,7 +26,7 @@ router.get("/showAll", (req, res) => {
  //POST
  //Create intereviewdate
  router.post("/add", (req, res) => {
-         console.log(req.query.offer_id);
+       
      pool.query("INSERT INTO `intereviewdate`(`intrvDate`,`condidat_id`,`CreatedDate`,`UpdatedDate`) VALUES (?,?,?,?)", [
          
          req.query.intrvDate,
