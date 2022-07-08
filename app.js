@@ -4,7 +4,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
+session = require('express-session');
 var indexRouter = require('./routes/CondidatEmploye');
 
 
@@ -22,7 +22,11 @@ var condiadatEmployee=require('./services/CondidatEmpolyee');
 // // view engine setup
 // app.set('views', path.join(__dirname, 'views'));
 // app.set('view engine', 'pug');
-
+app.use(session({
+	secret: 'secret',
+	resave: true,
+	saveUninitialized: true
+}));
  app.use(logger('dev'));
 app.use(express.json());
  app.use(express.urlencoded({ extended: false }));
