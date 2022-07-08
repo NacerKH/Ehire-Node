@@ -1,32 +1,17 @@
+
 const express = require('express')
-const mysql = require('mysql')
-const router = express.Router()
-
-const pool = mysql.createPool({
-    connectionLimit: 10,
-    host: "localhost",
-    user: "root",
-    database: "ehire"
-})
-
-function getConnection(){
-    return pool
-}
-
-
-
-//--------------------------------------------------------------------------------------------------------------
-//--------------------------------------------------------------------------------------------------------------
-
+const router = express.Router();
+const pool =require('../config/DbConnection')
 
 //GET
 //get all condidatEmployees
 router.get("/showAll", (req, res) => {
-    pool.query("SELECT * FROM condidatEmployees ", (err, user_rows, fields) => {
+   pool.query("SELECT * FROM condidatEmployees ", (err, user_rows, fields) => {
         res.status(200)
         res.json(user_rows)
     })
 })
+//get One condidatEmployees
 router.get("/showOne", (req, res) => {
     pool.query("SELECT * FROM condidatEmployees  where id = ?", [
          req.query.id,
@@ -36,9 +21,6 @@ router.get("/showOne", (req, res) => {
         res.json(user_rows)
     })
 })
-
-
-
 //--------------------------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------------------------
 
@@ -64,17 +46,7 @@ router.post("/add", (req, res) => {
         })
 })
 
-// //Post 
-// //SignIn
-// router.post("/Login", (req, res) => {
-//     pool.query("SELECT * FROM personne where mail = ? and password = ? ",
-//     [   req.body.email,
-//         req.body.password], (err, user_rows, fields) => {
-//         res.status(200)
-//         console.log(user_rows)
-//         res.json(user_rows[0])
-//     })
-// })
+
 
 
 
