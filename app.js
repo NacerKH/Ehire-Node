@@ -4,9 +4,9 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-session = require('express-session');
+var session = require('express-session');
 var indexRouter = require('./routes/CondidatEmploye');
-
+const fileUpload = require('express-fileupload');
 
 var app = express();
 //-------------------------------------------------------
@@ -38,6 +38,9 @@ app.use(session({
 	saveUninitialized: true,
 	cookie: { maxAge: oneDay },
 	resave: false ,
+}));
+app.use(fileUpload({
+    createParentPath: true
 }));
  app.use(logger('dev'));
 app.use(express.json());
