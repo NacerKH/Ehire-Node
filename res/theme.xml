@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="11" useXmlUI="false">
+    <image name="award.png"  />
+    <image name="buttonSuccess.borderBottom_1.png" type="multi"  />
+    <image name="buttonSuccess.borderBottomL_1.png" type="multi"  />
+    <image name="buttonSuccess.borderBottomR_1.png" type="multi"  />
+    <image name="buttonSuccess.borderCenter_1.png" type="multi"  />
+    <image name="buttonSuccess.borderLeft_1.png" type="multi"  />
+    <image name="buttonSuccess.borderRight_1.png" type="multi"  />
+    <image name="buttonSuccess.borderTop_1.png" type="multi"  />
+    <image name="buttonSuccess.borderTopL_1.png" type="multi"  />
+    <image name="buttonSuccess.borderTopR_1.png" type="multi"  />
+    <image name="default.jpg"  />
+    <image name="done.png"  />
+    <image name="hire.jpg"  />
+    <image name="loading.gif"  />
+    <image name="person.jpg"  />
+    <image name="share.png"  />
+    <image name="star-outline.png" type="multi"  />
+    <image name="star.png" type="multi"  />
+    <theme name="Theme">
+        <val key="@includeNativeBool" value="true" />
+        <val key="Button.fgColor" value="21848B" />
+        <val key="Tab.fgColor" value="999999" />
+        <gradient key="Toolbar.bgGradient" color1="0" color2="0" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="Toolbar.bgType" value="8" />
+        <val key="buttonDanger.align" value="4" />
+        <gradient key="buttonDanger.bgGradient" color1="2196619" color2="2196619" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonDanger.bgType" value="8" />
+        <border key="buttonDanger.border" type="rounded" thickness="0.0" arcW="21" arcH="23" color="10066329" />
+        <val key="buttonDanger.fgColor" value="ffffff" />
+        <val key="buttonDanger.margin" value="20.0,20.0,20.0,20.0" />
+        <val key="buttonDanger.padding" value="0.0,0.0,80.0,80.0" />
+        <val key="buttonDanger.press#align" value="4" />
+        <gradient key="buttonDanger.press#bgGradient" color1="10027059" color2="10027059" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonDanger.press#bgType" value="8" />
+        <border key="buttonDanger.press#border" type="rounded" thickness="0.0" arcW="21" arcH="23" color="10066329" />
+        <val key="buttonDanger.press#fgColor" value="ffffff" />
+        <val key="buttonDanger.press#margin" value="20.0,20.0,20.0,20.0" />
+        <val key="buttonDanger.press#padding" value="0.0,0.0,80.0,80.0" />
+        <val key="buttonDanger.sel#align" value="4" />
+        <gradient key="buttonDanger.sel#bgGradient" color1="15874121" color2="15874121" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonDanger.sel#bgType" value="8" />
+        <border key="buttonDanger.sel#border" type="rounded" thickness="0.0" arcW="21" arcH="23" color="10066329" />
+        <val key="buttonDanger.sel#fgColor" value="ffffff" />
+        <val key="buttonDanger.sel#margin" value="20.0,20.0,20.0,20.0" />
+        <val key="buttonDanger.sel#padding" value="0.0,0.0,80.0,80.0" />
+        <val key="buttonLogout.align" value="4" />
+        <gradient key="buttonLogout.bgGradient" color1="2196619" color2="2196619" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonLogout.bgType" value="8" />
+        <border key="buttonLogout.border" type="rounded" thickness="0.0" arcW="21" arcH="23" color="10066329" />
+        <val key="buttonLogout.fgColor" value="ffffff" />
+        <val key="buttonLogout.margin" value="20.0,20.0,20.0,20.0" />
+        <val key="buttonLogout.padding" value="0.0,0.0,40.0,40.0" />
+        <val key="buttonLogout.press#align" value="4" />
+        <gradient key="buttonLogout.press#bgGradient" color1="10027059" color2="10027059" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonLogout.press#bgType" value="8" />
+        <border key="buttonLogout.press#border" type="rounded" thickness="0.0" arcW="21" arcH="23" color="10066329" />
+        <val key="buttonLogout.press#fgColor" value="ffffff" />
+        <val key="buttonLogout.press#margin" value="20.0,20.0,20.0,20.0" />
+        <val key="buttonLogout.press#padding" value="0.0,0.0,40.0,40.0" />
+        <val key="buttonLogout.sel#align" value="4" />
+        <gradient key="buttonLogout.sel#bgGradient" color1="2196619" color2="2196619" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonLogout.sel#bgType" value="8" />
+        <border key="buttonLogout.sel#border" type="rounded" thickness="0.0" arcW="21" arcH="23" color="10066329" />
+        <val key="buttonLogout.sel#fgColor" value="ffffff" />
+        <val key="buttonLogout.sel#margin" value="20.0,20.0,20.0,20.0" />
+        <val key="buttonLogout.sel#padding" value="0.0,0.0,40.0,40.0" />
+        <val key="buttonMain.align" value="4" />
+        <val key="buttonMain.bgColor" value="ffffff" />
+        <gradient key="buttonMain.bgGradient" color1="2196619" color2="2196619" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonMain.bgType" value="8" />
+        <border key="buttonMain.border" type="rounded" thickness="0.0" arcW="21" arcH="23" color="10066329" />
+        <val key="buttonMain.fgColor" value="ffffff" />
+        <val key="buttonMain.margin" value="20.0,20.0,20.0,20.0" />
+        <val key="buttonMain.press#align" value="4" />
+        <val key="buttonMain.press#bgColor" value="ffffff" />
+        <gradient key="buttonMain.press#bgGradient" color1="10027008" color2="10027008" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonMain.press#bgType" value="8" />
+        <border key="buttonMain.press#border" type="rounded" thickness="0.0" arcW="21" arcH="23" color="10066329" />
+        <val key="buttonMain.press#fgColor" value="ffffff" />
+        <val key="buttonMain.press#margin" value="20.0,20.0,20.0,20.0" />
+        <val key="buttonMain.sel#align" value="4" />
+        <val key="buttonMain.sel#bgColor" value="ffffff" />
+        <gradient key="buttonMain.sel#bgGradient" color1="2196619" color2="2196619" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonMain.sel#bgType" value="8" />
+        <border key="buttonMain.sel#border" type="rounded" thickness="0.0" arcW="21" arcH="23" color="10066329" />
+        <val key="buttonMain.sel#fgColor" value="ffffff" />
+        <val key="buttonMain.sel#margin" value="20.0,20.0,20.0,20.0" />
+        <gradient key="buttonMenu.bgGradient" color1="16777215" color2="16777215" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonMenu.bgType" value="8" />
+        <border key="buttonMenu.border" type="line" millimeters="false" thickness="2.0" color="13421772" />
+        <val key="buttonMenu.padding" value="60.0,60.0,50.0,50.0" />
+        <gradient key="buttonMenu.press#bgGradient" color1="16777215" color2="16777215" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonMenu.press#bgType" value="8" />
+        <border key="buttonMenu.press#border" type="line" millimeters="false" thickness="2.0" color="13421772" />
+        <val key="buttonMenu.press#padding" value="60.0,60.0,50.0,50.0" />
+        <gradient key="buttonMenu.sel#bgGradient" color1="16777215" color2="16777215" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonMenu.sel#bgType" value="8" />
+        <border key="buttonMenu.sel#border" type="line" millimeters="false" thickness="2.0" color="13421772" />
+        <val key="buttonMenu.sel#padding" value="60.0,60.0,50.0,50.0" />
+        <val key="buttonWhiteCenter.align" value="4" />
+        <val key="buttonWhiteCenter.bgColor" value="ffffff" />
+        <gradient key="buttonWhiteCenter.bgGradient" color1="16777215" color2="16777215" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonWhiteCenter.bgType" value="8" />
+        <border key="buttonWhiteCenter.border" type="rounded" thickness="0.0" arcW="21" arcH="23" color="10066329" />
+        <val key="buttonWhiteCenter.margin" value="20.0,20.0,20.0,20.0" />
+        <val key="buttonWhiteCenter.press#align" value="4" />
+        <gradient key="buttonWhiteCenter.press#bgGradient" color1="13421772" color2="13421772" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonWhiteCenter.press#bgType" value="8" />
+        <border key="buttonWhiteCenter.press#border" type="rounded" thickness="0.0" arcW="21" arcH="23" color="10066329" />
+        <val key="buttonWhiteCenter.press#margin" value="20.0,20.0,20.0,20.0" />
+        <val key="buttonWhiteCenter.sel#align" value="4" />
+        <gradient key="buttonWhiteCenter.sel#bgGradient" color1="13421772" color2="13421772" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="buttonWhiteCenter.sel#bgType" value="8" />
+        <border key="buttonWhiteCenter.sel#border" type="rounded" thickness="0.0" arcW="21" arcH="23" color="10066329" />
+        <val key="buttonWhiteCenter.sel#margin" value="20.0,20.0,20.0,20.0" />
+        <val key="containerButtons.align" value="4" />
+        <val key="containerButtons.margin" value="20.0,20.0,0.0,0.0" />
+        <gradient key="containerRounded.bgGradient" color1="16777215" color2="16777215" posX="0.5" posY="0.5" radius="0.6" />
+        <val key="containerRounded.bgType" value="7" />
+        <border key="containerRounded.border" type="rounded" thickness="0.0" arcW="50" arcH="50" color="10066329" />
+        <val key="containerRounded.marUnit" value="1,1,1,1" />
+        <val key="containerRounded.margin" value="2.0,2.0,2.0,2.0" />
+        <val key="containerRounded.padUnit" value="1,1,1,1" />
+        <val key="containerRounded.padding" value="2.0,2.0,2.0,2.0" />
+        <val key="dateEnd.align" value="4" />
+        <gradient key="dateEnd.bgGradient" color1="2196619" color2="2196619" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="dateEnd.bgType" value="8" />
+        <val key="dateEnd.fgColor" value="ffffff" />
+        <val key="dateStart.align" value="4" />
+        <gradient key="dateStart.bgGradient" color1="39423" color2="39423" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="dateStart.bgType" value="8" />
+        <val key="dateStart.fgColor" value="ffffff" />
+        <val key="imageCenter.align" value="4" />
+        <val key="labelCenter.align" value="4" />
+        <val key="labelCenter.margin" value="30.0,30.0,30.0,30.0" />
+        <val key="labelDate.align" value="3" />
+        <font key="labelDefault.font" type="system" face="0" style="0" size="0" />
+        <val key="labelTitleCenter.align" value="4" />
+        <font key="labelTitleCenter.font" type="system" face="0" style="1" size="16" />
+    </theme>
+</resource>
